@@ -4,6 +4,7 @@
   background: var(--blackBg);
   color: var(--gray);
   cursor: pointer;
+  width: 100vw;
 }
 .logo {
   display: flex;
