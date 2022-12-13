@@ -11,43 +11,38 @@ import img10 from '../assets/img10.png';
 import img11 from '../assets/img11.jpg';
 import img12 from '../assets/img12.png';
 import img13 from '../assets/img13.png';
-import img14 from '../assets/img14.jpg';
+import img14 from '../assets/img14.png';
 import img15 from '../assets/img15.png';
 import img16 from '../assets/img16.png';
 import img17 from '../assets/img17.jpg';
-import shade from '../assets/shade.png';
+import sliderimg from '../assets/slider-img.jpg';
+import sliderimg2 from '../assets/slider-img2.jpg';
+import sliderimg3 from '../assets/slider-img3.jpg';
 
-export const SliderProducts = [
+const SliderProducts = [
   {
     name: 'Adidas',
     detail: 'Adidas shoes',
     price: '155',
-    img: img12,
+    img: sliderimg,
     type: 'adidas',
   },
   {
     name: 'Nike',
     details: 'Nike shoes',
     price: '130',
-    img: img14,
+    img: sliderimg2,
     type: 'nike',
   },
   {
     name: 'Football',
     detail: 'Sport Shoes',
     price: '129',
-    img: img7,
+    img: sliderimg3,
     type: 'Football shoes',
   },
-  {
-    name: 'Nike',
-    details: 'Nike shoes',
-    price: '120',
-    img: img13,
-    type: 'nike',
-  },
 ];
-export const ProductsData = [
+const ProductsData = [
   {
     name: 'Nike',
     details: 'Nike shoes',
@@ -196,3 +191,5 @@ export const ProductsData = [
     type: 'adidas',
   },
 ];
+
+export { SliderProducts, ProductsData };

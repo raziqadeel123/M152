@@ -408,6 +408,10 @@ a {
   justify-content: end;
 }
 
+.align-self-center,
+.f-sc {
+  align-self: center;
+}
 .align-items-center,
 .f-ac {
   align-items: center;
@@ -606,6 +610,9 @@ a {
   height: 100%;
 }
 
+.w60p {
+  width: 60%;
+}
 /*Grid-Wrapper*/
 
 .bx-wrap,
