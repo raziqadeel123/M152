@@ -1,0 +1,9 @@
+.hero {
+  background-image: url('../../assets/Hero_bg.svg');
+  border-radius: 15px;
+}
+.title-large {
+  background-image: url('../../assets/shade.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

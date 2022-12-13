@@ -102,7 +102,7 @@ a {
 }
 
 .mr-6 {
-  margin-right: 7rem;
+  margin-right: 7rem !important;
 }
 
 .mb-1 {
@@ -174,7 +174,7 @@ a {
 }
 
 .mt-6 {
-  margin-top: 7rem;
+  margin-top: 7rem !important;
 }
 
 .m-1 {
@@ -437,7 +437,7 @@ a {
 }
 
 .fd-r {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 
 /*IMG*/
@@ -464,6 +464,11 @@ a {
 
 .cursor-notallowed {
   cursor: not-allowed;
+}
+
+/*Font size*/
+.title-large {
+  font-size: 8rem !important;
 }
 
 /*Overflow*/
