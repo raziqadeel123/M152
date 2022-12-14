@@ -206,6 +206,9 @@ a {
 .p-4 {
   padding: 8rem !important;
 }
+.padding-4 {
+  padding: 2rem !important;
+}
 .p-0 {
   padding: 0 !important;
 }
@@ -226,6 +229,9 @@ a {
   padding-top: 0 !important;
 }
 
+.pallSide {
+  padding: 1rem;
+}
 .pr-1 {
   padding-right: 0.5rem !important;
 }
