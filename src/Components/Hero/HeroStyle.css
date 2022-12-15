@@ -2,8 +2,23 @@
   background-image: url('../../assets/Hero_bg.svg');
   border-radius: 15px;
 }
-.title-large {
+.hero-body {
   background-image: url('../../assets/shade.png');
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: left;
+}
+.delay {
+  animation: appers 1.2s;
+  animation-delay: 12s;
+}
+@keyframes appers {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
