@@ -5,6 +5,7 @@ import CallToAction from './Components/CallToAction/CallToAction';
 import CarouselImage from './Components/ImgCarousel/Carousel';
 import Hero from './Components/Hero/Hero';
 import ProductSldier from './Components/ProductSlider/ProductSldier';
+import AccordionSection from './Components/Accordion/Accordion';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ProductSldier />
       {/* <CarouselImage /> */}
       <CallToAction />
+      <AccordionSection />
     </div>
   );
 }
