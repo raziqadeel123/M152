@@ -2,20 +2,19 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Table from 'react-bootstrap/Table';
 import paymentMethod from '../../assets/payment-methods.png';
+import './Accordion.css';
 
 const AccordionSection = () => {
   return (
-    <>
-      <Accordion className='m-4' flush>
-        <h3 className='mr-6 ml-6 text-align-center'>
-          Frequently asked Questions
-        </h3>
-        <Accordion.Item className='mr-6 ml-6 ' eventKey='1'>
+    <div className='accordion-Container  '>
+      <Accordion className=' accordion-bg d-f fd-c ptb-12 ' flush>
+        <h3 className='   '>Frequently asked Questions</h3>
+        <Accordion.Item className='  ' eventKey='1'>
           <Accordion.Header>
             Which payment methods are M152 Supporting
           </Accordion.Header>
           <Accordion.Body className='d-flex mr-6 ml-6'>
-            <Accordion.Body className='w50p ml-6'>
+            <Accordion.Body className='w50p'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -24,12 +23,12 @@ const AccordionSection = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
-            <Accordion.Body className='mr-6'>
-              <img src={paymentMethod} alt='payment method' />
+            <Accordion.Body className='mr-6 w100p'>
+              <img className='img-h' src={paymentMethod} alt='payment method' />
             </Accordion.Body>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item className='mr-6 ml-6' eventKey='0'>
+        <Accordion.Item className='  ' eventKey='0'>
           <Accordion.Header>Do M152 offers global shipping?</Accordion.Header>
           <Accordion.Body className='mr-6 ml-6'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
@@ -79,7 +78,7 @@ const AccordionSection = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item className='mr-6 ml-6' eventKey='2'>
+        <Accordion.Item className='  ' eventKey='2'>
           <Accordion.Header>Return policy for EU</Accordion.Header>
           <Accordion.Body className='mr-6 ml-6'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -101,7 +100,7 @@ const AccordionSection = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item className='mr-6 ml-6' eventKey='3'>
+        <Accordion.Item className=' ' eventKey='3'>
           <Accordion.Header>Fairtrade?</Accordion.Header>
           <Accordion.Body className='mr-6 ml-6'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -113,7 +112,7 @@ const AccordionSection = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item className='mr-6 ml-6' eventKey='4'>
+        <Accordion.Item className='  ' eventKey='4'>
           <Accordion.Header>How does 24/7 Support works?</Accordion.Header>
           <Accordion.Body className='mr-6 ml-6'>
             <Table striped bordered hover responsive>
@@ -150,7 +149,7 @@ const AccordionSection = () => {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-    </>
+    </div>
   );
 };
 

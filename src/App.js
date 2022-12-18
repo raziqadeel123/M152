@@ -6,6 +6,7 @@ import CarouselImage from './Components/ImgCarousel/Carousel';
 import Hero from './Components/Hero/Hero';
 import ProductSldier from './Components/ProductSlider/ProductSldier';
 import AccordionSection from './Components/Accordion/Accordion';
+import Newsletter from './Components/NewsLetter/Newsletter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <ProductSldier />
+      <Newsletter />
       {/* <CarouselImage /> */}
       <CallToAction />
       <AccordionSection />
