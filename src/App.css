@@ -108,6 +108,10 @@ a {
   margin-right: 7rem !important;
 }
 
+.mrl-8 {
+  margin-left: 12rem !important;
+  margin-right: 12rem !important;
+}
 .mb-1 {
   margin-bottom: 0.5rem;
 }
@@ -178,6 +182,16 @@ a {
 
 .mt-6 {
   margin-top: 7rem !important;
+}
+
+.mtb-12 {
+  margin-top: 10rem !important;
+  margin-bottom: 10rem !important;
+}
+
+.ptb-12 {
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
 }
 
 .m-1 {
