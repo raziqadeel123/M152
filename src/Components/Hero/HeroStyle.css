@@ -1,9 +1,76 @@
 .hero {
-  background-image: url('../../assets/Hero_bg.svg');
+  /* background-image: url('../../assets/AnimatedBg.svg'); */
+  /* background-image: url('../../assets/Hero_bg.svg'); */
+  background-image: url('../../assets/heroSection-bg.svg');
+  background-repeat: no-repeat;
+  background-position: top;
   border-radius: 15px;
 }
-.title-large {
-  background-image: url('../../assets/shade.png');
+.hero-body {
+  /* background-image: url('../../assets/heroSection-bg.svg'); */
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: left;
+}
+.delay {
+  animation: appers 1.2s;
+  animation-delay: 12s;
+}
+@keyframes appers {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.triangle-float1 {
+  animation: float1 8s infinite;
+}
+
+@keyframes float1 {
+  0% {
+    transform: translate(10, 20);
+  }
+  50% {
+    transform: translate(20px, 40);
+  }
+  100% {
+    transform: translate(40, 60);
+  }
+}
+
+.triangle-float2 {
+  animation: float2 8s infinite;
+}
+
+@keyframes float2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-15px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.triangle-float3 {
+  animation: float3 6s infinite;
 }
