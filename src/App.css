@@ -469,6 +469,10 @@ a {
 .f-gap {
   gap: 10%;
 }
+
+.f-gap-5 {
+  gap: 2%;
+}
 /*IMG*/
 
 .mini-img {
