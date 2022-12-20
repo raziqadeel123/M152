@@ -8,6 +8,7 @@ import ProductSldier from './Components/ProductSlider/ProductSldier';
 import AccordionSection from './Components/Accordion/Accordion';
 import Newsletter from './Components/NewsLetter/Newsletter';
 import Footer from './Components/Footer/Footer';
+import Team from './Components/Teams/Team';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Hero />
       <ProductSldier />
       <Newsletter />
+      <Team />
       {/* <CarouselImage /> */}
-      <CallToAction />
+      {/* <CallToAction /> */}
       <AccordionSection />
       <Footer />
     </div>
