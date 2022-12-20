@@ -10,7 +10,7 @@ const Newsletter = () => {
           <div class='text-center'>
             <img src={NewsletterImg} width='300' />
             <span class='d-block mt-3'>
-              Subscribe to our newsletter in order not to miss new arrivals{' '}
+              Subscribe to our newsletter in order not to miss new arrivals
               <br /> promotions and discounts of our store
             </span>
 

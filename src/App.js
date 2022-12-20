@@ -7,6 +7,7 @@ import Hero from './Components/Hero/Hero';
 import ProductSldier from './Components/ProductSlider/ProductSldier';
 import AccordionSection from './Components/Accordion/Accordion';
 import Newsletter from './Components/NewsLetter/Newsletter';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <CarouselImage /> */}
       <CallToAction />
       <AccordionSection />
+      <Footer />
     </div>
   );
 }
