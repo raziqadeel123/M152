@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'react-multi-carousel/lib/styles.css';
 import Header from './Components/header/Header';
 import CallToAction from './Components/CallToAction/CallToAction';
@@ -22,6 +23,15 @@ function App() {
       {/* <CallToAction /> */}
       <AccordionSection />
       <Footer />
+      <BrowserRouter>
+        <BrowserRouter>
+          <Switch>
+            <Route path='/'></Route>
+            <Route path='/'></Route>
+            <Route path='/'></Route>
+          </Switch>
+        </BrowserRouter>
+      </BrowserRouter>
     </div>
   );
 }
