@@ -7,7 +7,7 @@ import './Accordion.css';
 const AccordionSection = () => {
   return (
     <div className='accordion-Container  '>
-      <Accordion className=' accordion-bg d-f fd-c ptb-12 ' flush>
+      <Accordion className=' accordion-bg d-f fd-c ptb-12 plf-12 ' flush>
         <h3 className='   '>Frequently asked Questions</h3>
         <Accordion.Item className='  ' eventKey='1'>
           <Accordion.Header>

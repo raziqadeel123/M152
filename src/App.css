@@ -193,7 +193,10 @@ a {
   padding-top: 10rem !important;
   padding-bottom: 10rem !important;
 }
-
+.plf-12 {
+  padding-left: 10rem !important;
+  padding-right: 10rem !important;
+}
 .m-1 {
   margin: 0.5rem;
 }
