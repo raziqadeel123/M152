@@ -466,7 +466,15 @@ a {
   flex-direction: row !important;
 }
 
+.f-gap {
+  gap: 10%;
+}
 /*IMG*/
+
+.mini-img {
+  width: 120px;
+  height: 150px;
+}
 
 .img-h {
   height: 100%;
