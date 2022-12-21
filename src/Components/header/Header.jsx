@@ -1,5 +1,7 @@
 import React from 'react';
 import HeaderStyle from './HeaderModule.css';
+import { Outlet, Link } from 'react-router-dom';
+import Collection from '../../Pages/Collection';
 import Logo from '../../assets/shade.png';
 
 const Header = () => {
@@ -26,21 +28,22 @@ const Header = () => {
 
       <div id='navbarBasicExample' class='navbar-menu'>
         <div class='navbar-start'>
-          <a class='navbar-item'>Home</a>
+          <Link class='navbar-item' to='/'>
+            Home
+          </Link>
+          <Link class='navbar-item' to='/collection'>
+            Brand
+          </Link>
 
-          <a class='navbar-item'>Brand</a>
-
-          <div class='navbar-item has-dropdown is-hoverable'>
-            <a class='navbar-link'>Collection</a>
-
-            <div class='navbar-dropdown'>
-              <a class='navbar-item'>Men</a>
-              <a class='navbar-item'>Women</a>
-              <a class='navbar-item'>Winter</a>
-              <hr class='navbar-divider' />
-              <a class='navbar-item'>Sale</a>
-            </div>
-          </div>
+          <Link class='navbar-item' to='/collection'>
+            collection
+          </Link>
+          <Link class='navbar-item' to='/blog'>
+            Blog
+          </Link>
+          <Link class='navbar-item' to='/contact'>
+            Contact
+          </Link>
         </div>
 
         <div class='navbar-end'>

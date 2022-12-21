@@ -1,5 +1,5 @@
 import React from 'react';
-import Typist from 'react-typist';
+
 import bannerImg from '../../assets/blob.svg';
 import { FaPlay } from 'react-icons/fa';
 import './HeroStyle.css';
