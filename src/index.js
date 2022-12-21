@@ -13,15 +13,15 @@ import Layout from './Layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />
-  // <BrowserRouter>
-  //   <Routes>
-  //     <Route path='/' element={<Layout />}></Route>
-  //     <Route path='/home' element={<App />}></Route>
-  //     <Route path='blogs' element={<Blog />}></Route>
-  //     <Route path='contact' element={<Contact />}></Route>
-  //     <Route path='collection' element={<Collection />}></Route>
-  //     <Route path='*' element={<Nopages />}></Route>
-  //   </Routes>
-  // </BrowserRouter>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route path='/' element={<App />}></Route>
+        <Route path='blogs' element={<Blog />}></Route>
+        <Route path='contact' element={<Contact />}></Route>
+        <Route path='collection' element={<Collection />}></Route>
+        <Route path='*' element={<Nopages />}></Route>
+      </Route>
+    </Routes>
+  </BrowserRouter>
 );

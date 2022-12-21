@@ -54,6 +54,9 @@ a {
   color: inherit;
 }
 
+.b-radius {
+  border-radius: 21px 21px 0 0;
+}
 /* cssclasses */
 
 /*Margin*/
