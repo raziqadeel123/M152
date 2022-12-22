@@ -1,6 +1,6 @@
 import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
 
-import bannerImg from '../../assets/blob.svg';
 import { FaPlay } from 'react-icons/fa';
 import './HeroStyle.css';
 
@@ -16,7 +16,10 @@ const Hero = () => {
         <div className=' d-f '>
           <button class='button is-warning mr-3 '>Get Started</button>
           <button class='button is-warning  '>
-            Watch Now <FaPlay className='ml-2' />
+            <Link className='deco-none fontColor' to='/video'>
+              Watch Now
+            </Link>
+            <FaPlay className='ml-2' />
           </button>
         </div>
       </div>

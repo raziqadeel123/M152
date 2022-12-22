@@ -31,6 +31,9 @@
 .bg-gray {
   background-color: #555555;
 }
+.fontColor {
+  color: var(--FontColor) !important ;
+}
 .App {
   display: flex;
   flex-direction: column;

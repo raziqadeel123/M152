@@ -10,6 +10,7 @@ import Contact from './Pages/Contact';
 import Collection from './Pages/Collection';
 import Nopages from './Pages/Nopages';
 import Layout from './Layout';
+import Video from './Pages/Video';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         <Route path='blogs' element={<Blog />}></Route>
         <Route path='contact' element={<Contact />}></Route>
         <Route path='collection' element={<Collection />}></Route>
+        <Route path='video' element={<Video />}></Route>
         <Route path='*' element={<Nopages />}></Route>
       </Route>
     </Routes>
