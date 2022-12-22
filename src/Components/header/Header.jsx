@@ -3,6 +3,7 @@ import HeaderStyle from './HeaderModule.css';
 import { Outlet, Link } from 'react-router-dom';
 import Collection from '../../Pages/Collection';
 import Logo from '../../assets/shade.png';
+import { Login } from '../../../src/Pages/Auth/Login';
 
 const Header = () => {
   return (
@@ -50,7 +51,9 @@ const Header = () => {
           <div class='navbar-item'>
             <div class='buttons'>
               <a class='button is-primary'>
-                <strong>Sign up</strong>
+                <strong>
+                  <Login />
+                </strong>
               </a>
               <a class='button is-light'>Log in</a>
             </div>
