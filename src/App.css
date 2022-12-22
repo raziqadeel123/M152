@@ -912,3 +912,33 @@ a {
 .bcol-000 {
   background-color: #000;
 }
+
+/*responsive desgin*/
+
+@media screen and (max-width: 420px) {
+  .product-card {
+    padding: 10px !important;
+  }
+  body {
+    background-color: lightblue;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  .card {
+    margin-top: 2rem !important;
+  }
+  .teamContainer {
+    display: none;
+  }
+  .accordion-bg {
+    padding: 20px !important;
+  }
+  .accordion-body {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .Footer-conatiner {
+    display: none;
+  }
+}
