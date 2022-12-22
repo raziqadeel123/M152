@@ -34,6 +34,13 @@
 .fontColor {
   color: var(--FontColor) !important ;
 }
+.iswarning {
+  background-color: #ffe08a !important;
+}
+
+.outline {
+  outline: none !important;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -62,6 +69,9 @@ a {
 
 .b-radius {
   border-radius: 21px 21px 0 0;
+}
+.b-none {
+  border: none !important;
 }
 /* cssclasses */
 

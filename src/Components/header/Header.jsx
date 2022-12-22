@@ -3,14 +3,15 @@ import HeaderStyle from './HeaderModule.css';
 import { Outlet, Link } from 'react-router-dom';
 import Collection from '../../Pages/Collection';
 import Logo from '../../assets/shade.png';
+import { Login } from '../../../src/Pages/Auth/Login';
 
 const Header = () => {
   return (
     <nav class='navbar' role='navigation' aria-label='main navigation'>
       <div class='navbar-brand'>
-        <a class='navbar-item' href='#'>
+        {/* <a class='navbar-item' href='#'>
           <img src={Logo} alt='' srcset='' width='112' height='28' />
-        </a>
+        </a> */}
 
         <a
           role='button'
@@ -49,10 +50,8 @@ const Header = () => {
         <div class='navbar-end'>
           <div class='navbar-item'>
             <div class='buttons'>
-              <a class='button is-primary'>
-                <strong>Sign up</strong>
-              </a>
-              <a class='button is-light'>Log in</a>
+              <Login className='navbar-item button iswarning mr-3' />
+              {/* <a class=' navbar-item button iswarning mr-3 deco-none'>Signup</a> */}
             </div>
           </div>
         </div>
