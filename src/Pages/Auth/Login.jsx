@@ -5,19 +5,18 @@ import Modal from 'react-bootstrap/Modal';
 
 export function Login() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   return (
     <>
-      <Button variant='primary' onClick={handleShow}>
-        Launch demo modal
+      <Button className='iswarning b-none outline' onClick={handleShow}>
+        Login
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Signin</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -33,8 +32,8 @@ export function Login() {
               className='mb-3'
               controlId='exampleForm.ControlTextarea1'
             >
-              <Form.Label>Example textarea</Form.Label>
-              <Form.Control as='textarea' rows={3} />
+              <Form.Label>Password</Form.Label>
+              <Form.Control type='password' placeholder='your password' />
             </Form.Group>
           </Form>
         </Modal.Body>
@@ -42,8 +41,8 @@ export function Login() {
           <Button variant='secondary' onClick={handleClose}>
             Close
           </Button>
-          <Button variant='primary' onClick={handleClose}>
-            Save Changes
+          <Button className='iswarning b-none outline' onClick={handleClose}>
+            Login
           </Button>
         </Modal.Footer>
       </Modal>
