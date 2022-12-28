@@ -37,7 +37,7 @@ const Header = () => {
           </Link>
 
           <Link class='navbar-item' to='/collection'>
-            collection
+            Collection
           </Link>
           <Link class='navbar-item' to='/blog'>
             Blog
@@ -51,6 +51,7 @@ const Header = () => {
           <div class='navbar-item'>
             <div class='buttons'>
               <Login className='navbar-item button iswarning mr-3' />
+
               {/* <a class=' navbar-item button iswarning mr-3 deco-none'>Signup</a> */}
             </div>
           </div>
