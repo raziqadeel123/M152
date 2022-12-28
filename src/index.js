@@ -18,7 +18,7 @@ root.render(
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route path='/' element={<App />}></Route>
-        <Route path='blogs' element={<Blog />}></Route>
+        <Route path='blog' element={<Blog />}></Route>
         <Route path='contact' element={<Contact />}></Route>
         <Route path='collection' element={<Collection />}></Route>
         <Route path='video' element={<Video />}></Route>
