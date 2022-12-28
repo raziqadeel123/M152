@@ -392,3 +392,14 @@ svg .svg-elem-36 {
 svg.active .svg-elem-36 {
   fill: rgb(202, 202, 202);
 }
+
+/* blog styling */
+
+.banner-img {
+  background: url('../assets/slider-img.jpg');
+  background-position: center;
+  object-fit: cover;
+}
+.no-bg {
+  background: none !important;
+}

@@ -44,6 +44,7 @@ const Collection = () => {
         <div className='  d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 '>
           <div
             data-aos='fade-left'
+            data-aos-delay='500'
             className=' m-4 bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p'
           >
             <div className='my-3 py-3'>
@@ -59,6 +60,7 @@ const Collection = () => {
           </div>
           <div
             data-aos='fade-right'
+            data-aos-delay='500'
             className='bg-light  w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden '
           >
             <div className='my-3 p-3'>
@@ -77,7 +79,7 @@ const Collection = () => {
         <div className='m-4  d-md-flex flex-md-equal w-100 my-md-3 pl-md-3'>
           <div
             data-aos='fade-up'
-            data-aos-delay='1000'
+            data-aos-delay='1500'
             className='m-4 bg-light w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'
           >
             <div className='my-3 p-3'>
@@ -94,7 +96,7 @@ const Collection = () => {
 
           <div
             data-aos='fade-up'
-            data-aos-delay='1000'
+            data-aos-delay='1500'
             className='m-4 bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p'
           >
             <div className='my-3 py-3'>
@@ -113,7 +115,7 @@ const Collection = () => {
         <div className='d-md-flex flex-md-equal w-100 my-md-3 pl-md-3'>
           <div
             data-aos='fade-up'
-            data-aos-delay='1000'
+            data-aos-delay='1500'
             className=' m-4 bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p'
           >
             <div className='my-3 py-3'>
@@ -129,7 +131,7 @@ const Collection = () => {
           </div>
           <div
             data-aos='fade-up'
-            data-aos-delay='1000'
+            data-aos-delay='1500'
             className='m-4 bg-light w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'
           >
             <div className='my-3 py-3'>
