@@ -32,8 +32,8 @@ const Header = () => {
           <Link class='navbar-item' to='/'>
             Home
           </Link>
-          <Link class='navbar-item' to='/collection'>
-            Brand
+          <Link class='navbar-item' to='/shop'>
+            Shop
           </Link>
 
           <Link class='navbar-item' to='/collection'>

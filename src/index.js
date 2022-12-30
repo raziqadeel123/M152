@@ -11,6 +11,7 @@ import Collection from './Pages/Collection';
 import Nopages from './Pages/Nopages';
 import Layout from './Layout';
 import Video from './Pages/Video';
+import Shop from './Pages/shop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path='contact' element={<Contact />}></Route>
         <Route path='collection' element={<Collection />}></Route>
         <Route path='video' element={<Video />}></Route>
+        <Route path='shop' element={<Shop />}></Route>
         <Route path='*' element={<Nopages />}></Route>
       </Route>
     </Routes>
