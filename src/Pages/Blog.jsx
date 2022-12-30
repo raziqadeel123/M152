@@ -96,7 +96,143 @@ const Blog = () => {
         </div>
       </div>
 
+      <nav class='level is-mobile mrl-8'>
+        <div class='level-left'>
+          <div class='level-item'>
+            <p class='subtitle is-5'>
+              <strong>123</strong> posts
+            </p>
+          </div>
+          <div class='level-item'>
+            <div class='field has-addons'>
+              <p class='control'>
+                <input class='input' type='text' placeholder='Find a post' />
+              </p>
+              <p class='control'>
+                <button class='button'>Search</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class='level-right'>
+          <p class='level-item'>
+            <strong>All</strong>
+          </p>
+          <p class='level-item'>
+            <a>Published</a>
+          </p>
+          <p class='level-item'>
+            <a>Drafts</a>
+          </p>
+          <p class='level-item'>
+            <a>Deleted</a>
+          </p>
+          <p class='level-item'>
+            <a class='button is-success'>New</a>
+          </p>
+        </div>
+      </nav>
+
       <div class='columns is-mobile mrl-8'>
+        <div class='column is-half'>
+          <div class='card mb-3'>
+            <img src={img1} class='card-img-top' alt='...' />
+            <div class='card-body'>
+              <h5 class='card-title'>Card title</h5>
+              <p class='card-text'>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class='card-text'>
+                <small class='text-muted'>Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class='column'>
+          <div class='card'>
+            <div class='card-content'>
+              <p class='title'>
+                “There are two hard things in computer science: cache
+                invalidation, naming things, and off-by-one errors.”
+              </p>
+              <p class='subtitle'>Jeff Atwood</p>
+            </div>
+            <footer class='card-footer'>
+              <p class='card-footer-item'>
+                <span>
+                  View on{' '}
+                  <a href='https://twitter.com/codinghorror/status/506010907021828096'>
+                    Twitter
+                  </a>
+                </span>
+              </p>
+              <p class='card-footer-item'>
+                <span>
+                  Share on <a href='#'>Facebook</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <div class='column'>
+          <div class='card'>
+            <div class='card-content'>
+              <p class='title'>
+                “There are two hard things in computer science: cache
+                invalidation, naming things, and off-by-one errors.”
+              </p>
+              <p class='subtitle'>Jeff Atwood</p>
+            </div>
+            <footer class='card-footer'>
+              <p class='card-footer-item'>
+                <span>
+                  View on{' '}
+                  <a href='https://twitter.com/codinghorror/status/506010907021828096'>
+                    Twitter
+                  </a>
+                </span>
+              </p>
+              <p class='card-footer-item'>
+                <span>
+                  Share on <a href='#'>Facebook</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
+
+      <nav class='level mtb-12'>
+        <div class='level-item has-text-centered'>
+          <div>
+            <p class='heading'>Tweets</p>
+            <p class='title'>3,456</p>
+          </div>
+        </div>
+        <div class='level-item has-text-centered'>
+          <div>
+            <p class='heading'>Following</p>
+            <p class='title'>123</p>
+          </div>
+        </div>
+        <div class='level-item has-text-centered'>
+          <div>
+            <p class='heading'>Followers</p>
+            <p class='title'>456K</p>
+          </div>
+        </div>
+        <div class='level-item has-text-centered'>
+          <div>
+            <p class='heading'>Likes</p>
+            <p class='title'>789</p>
+          </div>
+        </div>
+      </nav>
+
+      <div class='columns is-mobile mrl-8 mtb-12'>
         <div class='column'>
           <div class='card'>
             <div class='card-image'>
@@ -215,77 +351,6 @@ const Blog = () => {
                 <time datetime='2016-1-1'>11:09 PM - 1 Jan 2016</time>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class='columns is-mobile mrl-8'>
-        <div class='column is-half'>
-          <div class='card mb-3'>
-            <img src={img1} class='card-img-top' alt='...' />
-            <div class='card-body'>
-              <h5 class='card-title'>Card title</h5>
-              <p class='card-text'>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p class='card-text'>
-                <small class='text-muted'>Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class='column'>
-          <div class='card'>
-            <div class='card-content'>
-              <p class='title'>
-                “There are two hard things in computer science: cache
-                invalidation, naming things, and off-by-one errors.”
-              </p>
-              <p class='subtitle'>Jeff Atwood</p>
-            </div>
-            <footer class='card-footer'>
-              <p class='card-footer-item'>
-                <span>
-                  View on{' '}
-                  <a href='https://twitter.com/codinghorror/status/506010907021828096'>
-                    Twitter
-                  </a>
-                </span>
-              </p>
-              <p class='card-footer-item'>
-                <span>
-                  Share on <a href='#'>Facebook</a>
-                </span>
-              </p>
-            </footer>
-          </div>
-        </div>
-        <div class='column'>
-          <div class='card'>
-            <div class='card-content'>
-              <p class='title'>
-                “There are two hard things in computer science: cache
-                invalidation, naming things, and off-by-one errors.”
-              </p>
-              <p class='subtitle'>Jeff Atwood</p>
-            </div>
-            <footer class='card-footer'>
-              <p class='card-footer-item'>
-                <span>
-                  View on{' '}
-                  <a href='https://twitter.com/codinghorror/status/506010907021828096'>
-                    Twitter
-                  </a>
-                </span>
-              </p>
-              <p class='card-footer-item'>
-                <span>
-                  Share on <a href='#'>Facebook</a>
-                </span>
-              </p>
-            </footer>
           </div>
         </div>
       </div>

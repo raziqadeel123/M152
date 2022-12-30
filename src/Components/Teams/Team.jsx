@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import personImg from '../../assets/TeamImages/avatar-1.jpg';
 import personImg1 from '../../assets/TeamImages/avatar-2.jpg';
@@ -7,7 +6,7 @@ import personImg2 from '../../assets/TeamImages/avatar-3.jpg';
 import personImg3 from '../../assets/TeamImages/avatar-4.jpg';
 import personImg4 from '../../assets/TeamImages/avatar-5.jpg';
 import personImg5 from '../../assets/TeamImages/avatar-6.jpg';
-import { FaPhone, FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaPhone, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Team = () => {
   return (
     <div className='teamContainer d-f f-gap-5 ml-2 mr-2 mtb-12 '>
