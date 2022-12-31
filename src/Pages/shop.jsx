@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/header/Header';
 
-import { FaShoppingCart, FaHeart } from 'react-icons/fa';
+import { FaShoppingCart, FaHeart, FaEye } from 'react-icons/fa';
 
 import img1 from './../assets/ShopImgs/shopimg.jpg';
 import img2 from './../assets/ShopImgs/shopimg1.jpg';
@@ -79,7 +79,8 @@ const shop = () => {
                       <img src={img1} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -100,7 +101,8 @@ const shop = () => {
                       <img src={img2} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -121,7 +123,8 @@ const shop = () => {
                       <img src={img3} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -147,7 +150,8 @@ const shop = () => {
                       <img src={img4} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -168,7 +172,8 @@ const shop = () => {
                       <img src={img5} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -189,7 +194,8 @@ const shop = () => {
                       <img src={img7} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -215,7 +221,8 @@ const shop = () => {
                       <img src={img8} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -236,7 +243,8 @@ const shop = () => {
                       <img src={img9} alt='shoe img' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
@@ -257,7 +265,8 @@ const shop = () => {
                       <img src={img6} alt='img shoes' />
                       <a href='#' className='text-align-center'>
                         <FaShoppingCart className='mr-3' />
-                        <FaHeart />
+                        <FaHeart className='mr-3' />
+                        <FaEye />
                       </a>
                     </div>
                     <div className='panel-body text-center'>
