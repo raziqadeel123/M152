@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Components/header/Header';
+import { Link } from 'react-router-dom';
 
 import { FaShoppingCart, FaHeart, FaEye } from 'react-icons/fa';
 
@@ -13,6 +14,7 @@ import img7 from './../assets/ShopImgs/shopimg6.jpg';
 import img8 from './../assets/ShopImgs/shopimg7.jpg';
 import img9 from './../assets/ShopImgs/shopimg8.jpg';
 
+import SingleProductPage from './SingleProductPage';
 const shop = () => {
   return (
     <>
@@ -77,11 +79,21 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img1} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+
+                        <a
+                          href='/singleProduct'
+                          className='text-align-center mr-3'
+                        >
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -99,11 +111,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img2} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -121,11 +139,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img3} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -148,11 +172,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img4} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -170,11 +200,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img5} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -192,11 +228,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img7} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -219,11 +261,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img8} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -241,11 +289,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img9} alt='shoe img' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
@@ -263,11 +317,17 @@ const shop = () => {
                   <section className='d-f fd-c'>
                     <div className='d-f fd-c'>
                       <img src={img6} alt='img shoes' />
-                      <a href='#' className='text-align-center'>
-                        <FaShoppingCart className='mr-3' />
-                        <FaHeart className='mr-3' />
-                        <FaEye />
-                      </a>
+                      <div className='d-f text-align-center f-jc'>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaShoppingCart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaHeart />
+                        </a>
+                        <a href='#' className='text-align-center mr-3'>
+                          <FaEye />
+                        </a>
+                      </div>
                     </div>
                     <div className='panel-body text-center'>
                       <h6>
