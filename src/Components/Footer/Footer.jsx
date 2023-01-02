@@ -290,6 +290,24 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className='d-f f-jc mt-6 mb-0'>
+        <div className='mt-6 mb-0'>
+          <ul className='d-f mt-6 mb-0 '>
+            <li className='mr-3'>
+              <a href='/impressum'>Impressum</a>
+            </li>
+            <li className='mr-3'>
+              <a href='/impressum'>Datenschutz</a>
+            </li>
+            <li className='mr-3'>
+              <a href='/impressum'>Quellen</a>
+            </li>
+            <li className='mr-3'>
+              <a href='/impressum'>Reflexion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

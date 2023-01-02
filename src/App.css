@@ -913,6 +913,11 @@ a {
   background-color: #000;
 }
 
+.border-shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 /*responsive desgin*/
 
 @media screen and (max-width: 420px) {
