@@ -300,7 +300,7 @@ const Footer = () => {
               <a href='/impressum'>Datenschutz</a>
             </li>
             <li className='mr-3'>
-              <a href='/impressum'>Quellen</a>
+              <a href='/quellen'>Quellen</a>
             </li>
             <li className='mr-3'>
               <a href='/impressum'>Reflexion</a>
