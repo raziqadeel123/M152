@@ -669,7 +669,7 @@ a {
 }
 
 .h50p {
-  height: 50%;
+  height: 50% !important;
 }
 
 .h100p {
