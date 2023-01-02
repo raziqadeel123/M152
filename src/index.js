@@ -15,6 +15,7 @@ import Shop from './Pages/shop';
 import SingleProductPage from './Pages/SingleProductPage';
 import Impressum from './Pages/impressum';
 import Quellen from './Pages/Quellen';
+import ComingSoon from './Pages/ComingSoon';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -29,6 +30,7 @@ root.render(
         <Route path='singleProduct' element={<SingleProductPage />}></Route>
         <Route path='impressum' element={<Impressum />}></Route>
         <Route path='quellen' element={<Quellen />}></Route>
+        <Route path='comingsoon' element={<ComingSoon></ComingSoon>}></Route>
         <Route path='*' element={<Nopages />}></Route>
       </Route>
     </Routes>

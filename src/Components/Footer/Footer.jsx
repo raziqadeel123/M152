@@ -297,13 +297,13 @@ const Footer = () => {
               <a href='/impressum'>Impressum</a>
             </li>
             <li className='mr-3'>
-              <a href='/impressum'>Datenschutz</a>
+              <a href='/comingsoon'>Datenschutz</a>
             </li>
             <li className='mr-3'>
               <a href='/quellen'>Quellen</a>
             </li>
             <li className='mr-3'>
-              <a href='/impressum'>Reflexion</a>
+              <a href='/comingsoon'>Reflexion</a>
             </li>
           </ul>
         </div>
