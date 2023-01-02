@@ -1,16 +1,34 @@
 import React from 'react';
 import contactimg from '../assets/Contact-img.jpg';
 import Header from '../Components/header/Header';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Contact = () => {
+  // initializing the AOS
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      disable: 'mobile',
+    });
+  }, []);
+
   return (
     <>
       <Header />
       <div className='Contact-Container d-f '>
-        <div className=' w50p h100p'>
+        <div data-aos='fade-right' data-aos-delay='500' className=' w50p h100p'>
           <img className='w50p h100p mrl-8 mt-6 ' src={contactimg} alt='' />
         </div>
-        <div className='whiteBg w50p h100p '>
+        <div
+          data-aos='fade-left'
+          data-aos-delay='500'
+          className='whiteBg w50p h100p  '
+        >
           <form action='' className='mrl-8 mt-6 '>
             <div class='field '>
               <label class='label'>Name</label>

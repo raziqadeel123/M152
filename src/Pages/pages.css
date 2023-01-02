@@ -403,3 +403,10 @@ svg.active .svg-elem-36 {
 .no-bg {
   background: none !important;
 }
+
+/*resposive desgin for single product page*/
+@media screen and (max-width: 420px) {
+  .py-5 {
+    margin: 10px;
+  }
+}

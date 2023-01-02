@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import 'bulma/css/bulma.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import Collection from './Pages/Collection';
@@ -13,6 +13,7 @@ import Layout from './Layout';
 import Video from './Pages/Video';
 import Shop from './Pages/shop';
 import SingleProductPage from './Pages/SingleProductPage';
+import Impressum from './Pages/impressum';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -25,6 +26,7 @@ root.render(
         <Route path='video' element={<Video />}></Route>
         <Route path='shop' element={<Shop />}></Route>
         <Route path='singleProduct' element={<SingleProductPage />}></Route>
+        <Route path='impressum' element={<Impressum />}></Route>
         <Route path='*' element={<Nopages />}></Route>
       </Route>
     </Routes>
