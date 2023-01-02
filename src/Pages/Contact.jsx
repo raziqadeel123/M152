@@ -20,27 +20,32 @@ const Contact = () => {
   return (
     <>
       <Header />
-      <div className='Contact-Container d-f '>
-        <div data-aos='fade-right' data-aos-delay='500' className=' w50p h100p'>
-          <img className='w50p h100p mrl-8 mt-6 ' src={contactimg} alt='' />
+
+      <div className='columns box-shadow1 mrl-8 mt-6 '>
+        <div
+          data-aos='fade-right'
+          data-aos-delay='500'
+          className='column is-half'
+        >
+          <img className='img-wh mrl-8 mt-6' src={contactimg} alt='' />
         </div>
         <div
           data-aos='fade-left'
           data-aos-delay='500'
-          className='whiteBg w50p h100p  '
+          className='column is-half'
         >
-          <form action='' className='mrl-8 mt-6 '>
+          <form action='' className='mrl-8 mt-6 mb-5 '>
             <div class='field '>
               <label class='label'>Name</label>
               <div class='control'>
-                <input class='input' type='text' placeholder='Text input' />
+                <input class='input' type='text' placeholder='Your name' />
               </div>
             </div>
 
             <div class='field'>
               <label class='label'>Username</label>
               <div class='control has-icons-left has-icons-right'>
-                <input class='input' type='text' placeholder='Text input' />
+                <input class='input' type='text' placeholder='Username' />
                 <span class='icon is-small is-left'>
                   <i class='fas fa-user'></i>
                 </span>
@@ -54,7 +59,7 @@ const Contact = () => {
             <div class='field'>
               <label class='label'>Email</label>
               <div class='control has-icons-left has-icons-right'>
-                <input class='input' type='email' placeholder='Text input' />
+                <input class='input' type='email' placeholder='Email' />
                 <span class='icon is-small is-left'>
                   <i class='fas fa-envelope'></i>
                 </span>
@@ -82,14 +87,17 @@ const Contact = () => {
             <div class='field'>
               <label class='label'>Message</label>
               <div class='control'>
-                <textarea class='textarea' placeholder='Textarea'></textarea>
+                <textarea
+                  class='textarea'
+                  placeholder='your message'
+                ></textarea>
               </div>
             </div>
 
             <div class='field'>
               <div class='control'>
                 <label class='checkbox'>
-                  <input type='checkbox' />I agree to the{' '}
+                  <input type='checkbox' />I agree to the
                   <a href='#'>terms and conditions</a>
                 </label>
               </div>

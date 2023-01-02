@@ -14,6 +14,7 @@ import Video from './Pages/Video';
 import Shop from './Pages/shop';
 import SingleProductPage from './Pages/SingleProductPage';
 import Impressum from './Pages/impressum';
+import Quellen from './Pages/Quellen';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -27,6 +28,7 @@ root.render(
         <Route path='shop' element={<Shop />}></Route>
         <Route path='singleProduct' element={<SingleProductPage />}></Route>
         <Route path='impressum' element={<Impressum />}></Route>
+        <Route path='quellen' element={<Quellen />}></Route>
         <Route path='*' element={<Nopages />}></Route>
       </Route>
     </Routes>
