@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../Components/header/Header';
-import { Link } from 'react-router-dom';
 
 import { FaShoppingCart, FaHeart, FaEye } from 'react-icons/fa';
 
@@ -14,7 +13,6 @@ import img7 from './../assets/ShopImgs/shopimg6.jpg';
 import img8 from './../assets/ShopImgs/shopimg7.jpg';
 import img9 from './../assets/ShopImgs/shopimg8.jpg';
 
-import SingleProductPage from './SingleProductPage';
 const shop = () => {
   return (
     <>
@@ -40,6 +38,88 @@ const shop = () => {
               </a>
             </li>
           </ul>
+
+          <details>
+            <summary>Sport Shoes</summary>
+            <ul className='nav flex-column'>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Jordan Air
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Sale
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Nike
+                </a>
+              </li>
+            </ul>
+          </details>
+          <details>
+            <summary>Men</summary>
+            <ul className='nav flex-column'>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Jordan Air
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Sale
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Nike
+                </a>
+              </li>
+            </ul>
+          </details>
+          <details>
+            <summary>Women</summary>
+            <ul className='nav flex-column'>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Jordan Air
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Sale
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Nike
+                </a>
+              </li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>Kids</summary>
+            <ul className='nav flex-column'>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Jordan Air
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Sale
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>
+                  Nike
+                </a>
+              </li>
+            </ul>
+          </details>
         </div>
         <div className='column pt-5 bg-color5'>
           <nav className='pagination' role='navigation' aria-label='pagination'>
