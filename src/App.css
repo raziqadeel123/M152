@@ -954,4 +954,8 @@ a {
   .Footer-conatiner {
     display: none;
   }
+  .Typewriter__wrapper,
+  .Typewriter__cursor {
+    font-size: 60px;
+  }
 }
