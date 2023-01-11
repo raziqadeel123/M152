@@ -58,7 +58,7 @@ const Footer = () => {
               />
               {/* <input type='submit' className='btn btn-submit' value='Send' /> */}
               <button
-                class='btn btn-success border-rad'
+                className='btn btn-success border-rad'
                 type='button'
                 id='button-addon2'
               >
@@ -85,9 +85,9 @@ const Footer = () => {
 
                 <li className='ml-2'>
                   <span>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-retweet'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-retweet'>
                           <FaInstagram />
                         </i>
                       </span>
@@ -97,9 +97,9 @@ const Footer = () => {
 
                 <li className='ml-2'>
                   <span>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-retweet'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-retweet'>
                           <FaLinkedin />
                         </i>
                       </span>
@@ -109,9 +109,9 @@ const Footer = () => {
 
                 <li className='ml-2'>
                   <span>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-retweet'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-retweet'>
                           <FaYoutube />
                         </i>
                       </span>
@@ -123,14 +123,14 @@ const Footer = () => {
           </div>
           <div className='col-md mb-4 mb-md-0 mb-3'>
             <h3>Latest Tweet</h3>
-            <article class='media'>
-              <figure class='media-left'>
-                <p class='image is-64x64'>
+            <article className='media'>
+              <figure className='media-left'>
+                <p className='image is-64x64'>
                   <img src={profileImg} />
                 </p>
               </figure>
-              <div class='media-content'>
-                <div class='content'>
+              <div className='media-content'>
+                <div className='content'>
                   <p>
                     <strong>John Smith</strong> <small>@johnsmith</small>{' '}
                     <small>31m</small>
@@ -140,25 +140,25 @@ const Footer = () => {
                     ut.
                   </p>
                 </div>
-                <nav class='level is-mobile'>
-                  <div class='level-left'>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-reply'>
+                <nav className='level is-mobile'>
+                  <div className='level-left'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-reply'>
                           <FaReply />
                         </i>
                       </span>
                     </a>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-retweet'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-retweet'>
                           <FaRetweet />
                         </i>
                       </span>
                     </a>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-heart'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-heart'>
                           <FaHeart />
                         </i>
                       </span>
@@ -166,19 +166,19 @@ const Footer = () => {
                   </div>
                 </nav>
               </div>
-              <div class='media-right'>
-                <button class='delete'></button>
+              <div className='media-right'>
+                <button className='delete'></button>
               </div>
             </article>
 
-            <article class='media'>
-              <figure class='media-left'>
-                <p class='image is-64x64'>
+            <article className='media'>
+              <figure className='media-left'>
+                <p className='image is-64x64'>
                   <img src={profileImg1} />
                 </p>
               </figure>
-              <div class='media-content'>
-                <div class='content'>
+              <div className='media-content'>
+                <div className='content'>
                   <p>
                     <strong>Thomas Winter</strong> <small>@TWinter</small>{' '}
                     <small>21m</small>
@@ -188,25 +188,25 @@ const Footer = () => {
                     ut.
                   </p>
                 </div>
-                <nav class='level is-mobile'>
-                  <div class='level-left'>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-reply'>
+                <nav className='level is-mobile'>
+                  <div className='level-left'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-reply'>
                           <FaReply />
                         </i>
                       </span>
                     </a>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-retweet'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-retweet'>
                           <FaRetweet />
                         </i>
                       </span>
                     </a>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-heart'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-heart'>
                           <FaHeart />
                         </i>
                       </span>
@@ -214,19 +214,19 @@ const Footer = () => {
                   </div>
                 </nav>
               </div>
-              <div class='media-right'>
-                <button class='delete'></button>
+              <div className='media-right'>
+                <button className='delete'></button>
               </div>
             </article>
 
-            <article class='media'>
-              <figure class='media-left'>
-                <p class='image is-64x64'>
+            <article className='media'>
+              <figure className='media-left'>
+                <p className='image is-64x64'>
                   <img src={profileImg2} />
                 </p>
               </figure>
-              <div class='media-content'>
-                <div class='content'>
+              <div className='media-content'>
+                <div className='content'>
                   <p>
                     <strong>Leo Summer</strong> <small>@LeoSummer</small>{' '}
                     <small>51m</small>
@@ -236,25 +236,25 @@ const Footer = () => {
                     ut.
                   </p>
                 </div>
-                <nav class='level is-mobile'>
-                  <div class='level-left'>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-reply'>
+                <nav className='level is-mobile'>
+                  <div className='level-left'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-reply'>
                           <FaReply />
                         </i>
                       </span>
                     </a>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-retweet'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-retweet'>
                           <FaRetweet />
                         </i>
                       </span>
                     </a>
-                    <a class='level-item'>
-                      <span class='icon is-small'>
-                        <i class='fas fa-heart'>
+                    <a className='level-item'>
+                      <span className='icon is-small'>
+                        <i className='fas fa-heart'>
                           <FaHeart />
                         </i>
                       </span>
@@ -262,8 +262,8 @@ const Footer = () => {
                   </div>
                 </nav>
               </div>
-              <div class='media-right'>
-                <button class='delete'></button>
+              <div className='media-right'>
+                <button className='delete'></button>
               </div>
             </article>
           </div>

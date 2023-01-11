@@ -23,9 +23,9 @@ const Team = () => {
             <ul className='d-f pl-0'>
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaPhone />
                       </i>
                     </span>
@@ -35,9 +35,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaLinkedin />
                       </i>
                     </span>
@@ -47,9 +47,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaEnvelope />
                       </i>
                     </span>
@@ -74,9 +74,9 @@ const Team = () => {
             <ul className='d-f pl-0'>
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaPhone />
                       </i>
                     </span>
@@ -86,9 +86,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaLinkedin />
                       </i>
                     </span>
@@ -98,9 +98,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaEnvelope />
                       </i>
                     </span>
@@ -125,9 +125,9 @@ const Team = () => {
             <ul className='d-f pl-0'>
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaPhone />
                       </i>
                     </span>
@@ -137,9 +137,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaLinkedin />
                       </i>
                     </span>
@@ -149,9 +149,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaEnvelope />
                       </i>
                     </span>
@@ -176,9 +176,9 @@ const Team = () => {
             <ul className='d-f pl-0'>
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaPhone />
                       </i>
                     </span>
@@ -188,9 +188,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaLinkedin />
                       </i>
                     </span>
@@ -200,9 +200,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaEnvelope />
                       </i>
                     </span>
@@ -229,9 +229,9 @@ const Team = () => {
             <ul className='d-f pl-0'>
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaPhone />
                       </i>
                     </span>
@@ -241,9 +241,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaLinkedin />
                       </i>
                     </span>
@@ -253,9 +253,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaEnvelope />
                       </i>
                     </span>
@@ -280,9 +280,9 @@ const Team = () => {
             <ul className='d-f pl-0'>
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaPhone />
                       </i>
                     </span>
@@ -292,9 +292,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaLinkedin />
                       </i>
                     </span>
@@ -304,9 +304,9 @@ const Team = () => {
 
               <li className='ml-2'>
                 <span>
-                  <a class='level-item'>
-                    <span class='icon is-small'>
-                      <i class='fas fa-retweet'>
+                  <a className='level-item'>
+                    <span className='icon is-small'>
+                      <i className='fas fa-retweet'>
                         <FaEnvelope />
                       </i>
                     </span>
