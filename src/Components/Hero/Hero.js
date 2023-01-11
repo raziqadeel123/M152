@@ -24,7 +24,11 @@ const Hero = () => {
           and within one week return Policy
         </p>
         <div className=' d-f '>
-          <button class='button is-warning mr-3 '>Get Started</button>
+          <button class='button is-warning mr-3 '>
+            <Link className='deco-none fontColor' to='/shop'>
+              Get Started
+            </Link>
+          </button>
           <button class='button is-warning  '>
             <Link className='deco-none fontColor' to='/video'>
               Watch Now

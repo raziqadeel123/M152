@@ -9,10 +9,6 @@ const Header = () => {
   return (
     <nav class='navbar' role='navigation' aria-label='main navigation'>
       <div class='navbar-brand'>
-        {/* <a class='navbar-item' href='#'>
-          <img src={Logo} alt='' srcset='' width='112' height='28' />
-        </a> */}
-
         <a
           role='button'
           class='navbar-burger'
@@ -58,25 +54,6 @@ const Header = () => {
         </div>
       </div>
     </nav>
-    // <div className='container'>
-    //   <div className='logo'>
-    //     {/* <img src={Logo} alt='Logo' /> */}
-    //     <span>M152</span>
-    //   </div>
-
-    //   <div className='rightSide'>
-    //     <div className='navbar'>
-    //       <ul className='navbarItems'>
-    //         <li>Collections</li>
-    //         <li>Brands</li>
-    //         <li>New</li>
-    //         <li>Sales</li>
-    //       </ul>
-    //     </div>
-    //     <BiSearch className='search' />
-    //     <BiCart className='cart' />
-    //   </div>
-    // </div>
   );
 };
 

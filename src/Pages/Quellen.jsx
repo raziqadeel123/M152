@@ -2,13 +2,14 @@ import React from 'react';
 import './pages.css';
 import Accordion from 'react-bootstrap/Accordion';
 import Header from '../Components/header/Header';
+import shoeImg from '../assets/slider-img2.jpg';
 
 const Quellen = () => {
   return (
     <>
       <Header />
 
-      <div className='columns border-shadow mrl-8 mtb-12'>
+      <div className='columns border-shadow mrl-8  is-1-mobile mt-5 pt-5 pb-5  '>
         <div className='column is-half'>
           <h4>Quellenangaben </h4>
           <Accordion>
@@ -35,8 +36,11 @@ const Quellen = () => {
             <Accordion.Item eventKey='1'>
               <Accordion.Header>Bilder</Accordion.Header>
               <Accordion.Body>
-                Alle Bilder und Illustrationen, die ich in diesem Projekt
-                verwendet habe, sind Open Source und lizenzfrei.
+                <p className='mob-p-4'>
+                  Alle Bilder und Illustrationen, die ich in diesem Projekt
+                  verwendet habe, sind Open Source und lizenzfrei.
+                </p>
+
                 <ul>
                   <h6>illustration</h6>
                   <li>
@@ -162,6 +166,9 @@ const Quellen = () => {
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
+        </div>
+        <div className='column is-half'>
+          <img src={shoeImg} alt=' shoe img' />
         </div>
       </div>
     </>

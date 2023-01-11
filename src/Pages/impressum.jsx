@@ -8,7 +8,7 @@ const Impressum = () => {
   return (
     <>
       <Header />
-      <div className='columns border-shadow mrl-8 mtb-12'>
+      <div className='columns border-shadow mrl-8 mtb-12 is-1-mobile '>
         <div className='column is-half'>
           <div className='bs-docs-section p-4'>
             <h3>Impressum</h3>

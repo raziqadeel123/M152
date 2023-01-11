@@ -21,20 +21,24 @@ const Contact = () => {
     <>
       <Header />
 
-      <div className='columns box-shadow1 mrl-8 mt-6 '>
+      <div className='columns box-shadow1 mrl-8 mt-6 is-1-mobile '>
         <div
           data-aos='fade-right'
           data-aos-delay='500'
           className='column is-half'
         >
-          <img className='img-wh mrl-8 mt-6' src={contactimg} alt='' />
+          <img
+            className='img-wh mrl-8 mt-6 is-1-mobile '
+            src={contactimg}
+            alt=''
+          />
         </div>
         <div
           data-aos='fade-left'
           data-aos-delay='500'
           className='column is-half'
         >
-          <form action='' className='mrl-8 mt-6 mb-5 '>
+          <form action='' className='mrl-8 mt-6 mb-5  is-1-mobile '>
             <div class='field '>
               <label class='label'>Name</label>
               <div class='control'>
@@ -98,7 +102,7 @@ const Contact = () => {
               <div class='control'>
                 <label class='checkbox'>
                   <input type='checkbox' />I agree to the
-                  <a href='#'>terms and conditions</a>
+                  <a href='#'> terms and conditions</a>
                 </label>
               </div>
             </div>
