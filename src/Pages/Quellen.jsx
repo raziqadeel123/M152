@@ -113,6 +113,11 @@ const Quellen = () => {
                       Carousel
                     </a>
                   </li>
+                  <li>
+                    <a href='https://www.npmjs.com/package/typewriter-effect'>
+                      text animation
+                    </a>
+                  </li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
