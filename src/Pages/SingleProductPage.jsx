@@ -25,13 +25,13 @@ const SingleProductPage = () => {
   return (
     <div>
       <Header />
-      <div className='py-5 mrl-8'>
-        <div className='px-4 px-lg-5 my-5 mrl-8'>
-          <div className='fd-r d-f gx-4 gx-lg-5 align-items-center'>
+      <div className='py-5 mrl-8 is-1-mobile'>
+        <div className='px-4 px-lg-5 my-5 mrl-8 is-1-mobile'>
+          <div className='fd-r d-f gx-4 gx-lg-5 align-items-center disply-mob'>
             <div
               data-aos='fade-right'
               data-aos-delay='500'
-              className='col-md-6 mr-5'
+              className='col-md-6 mr-5 is-1-mobile'
             >
               <img
                 className='card-img-top mb-5 mb-md-0'
@@ -42,7 +42,7 @@ const SingleProductPage = () => {
             <div data-aos='fade-left' data-aos-delay='500' className='col-md-6'>
               <div className='small mb-1'>SKU: BST-498</div>
               <h1 className='display-5 fw-bolder'>white Nike Shoes</h1>
-              <div className='fs-5 mb-5'>
+              <div className='fs-5 mb-5 is-1-mobile'>
                 <span className='text-decoration-line-through mr-3'>
                   $45.00
                 </span>
@@ -76,15 +76,15 @@ const SingleProductPage = () => {
         </div>
       </div>
 
-      <section className='py-5 bg-light'>
+      <section className='py-5 bg-light is-1-mobile'>
         <div
           data-aos='fade-up'
           data-aos-delay='500'
-          className='mrl-8 px-4 px-lg-5 mt-5'
+          className='mrl-8 px-4 px-lg-5 mt-5 is-1-mobile'
         >
           <h2 className='fw-bolder mb-4'>Related products</h2>
-          <div className='fd-r d-f gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center'>
-            <div className=' ml-6 col mb-5'>
+          <div className='fd-r d-f gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center  disply-mob'>
+            <div className='  col mb-5  mobile-w100p is-1-mobile '>
               <div className='card h-100'>
                 <img
                   className='card-img-top'
@@ -92,7 +92,7 @@ const SingleProductPage = () => {
                   alt='Jordan Air 1'
                 />
 
-                <div className='card-body p-4'>
+                <div className='card-body p-4 '>
                   <div className='text-center'>
                     <h5 className='fw-bolder'>Jordan Air 1 </h5>
                     <span className='text-muted text-decoration-line-through mr-3'>
@@ -111,7 +111,7 @@ const SingleProductPage = () => {
                 </div>
               </div>
             </div>
-            <div className='col mb-5 ml-6'>
+            <div className='col mb-5 ml-3  is-1-mobile mobile-w100p'>
               <div className='card h-100 '>
                 <div
                   className='badge bg-dark text-white position-absolute'
@@ -152,7 +152,7 @@ const SingleProductPage = () => {
                 </div>
               </div>
             </div>
-            <div className='col mb-5 ml-6'>
+            <div className='col mb-5 ml-3 is-1-mobile mobile-w100p'>
               <div className='card h-100'>
                 <div
                   className='badge bg-dark text-white position-absolute'
@@ -186,7 +186,7 @@ const SingleProductPage = () => {
                 </div>
               </div>
             </div>
-            <div className='col mb-5 ml-6'>
+            <div className='col mb-5 ml-3  is-1-mobile mobile-w100p'>
               <div className='card h-100'>
                 <img
                   className='card-img-top'

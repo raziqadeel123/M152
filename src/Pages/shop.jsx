@@ -18,8 +18,8 @@ const shop = () => {
     <>
       <Header />
 
-      <div className='columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd is-3  mrl-8 mt-6'>
-        <div className='column is-one-fifth pt-5 '>
+      <div className='columns is-variable is-1-mobile  is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd is-3  mrl-8 '>
+        <div className='column is-one-fifth  '>
           <input className='input' type='text' placeholder='Search' />
           <ul className='nav flex-column'>
             <li className='nav-item'>

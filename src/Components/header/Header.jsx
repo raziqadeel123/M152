@@ -1,83 +1,56 @@
 import React from 'react';
-import HeaderStyle from './HeaderModule.css';
-import { Outlet, Link } from 'react-router-dom';
-import Collection from '../../Pages/Collection';
-import Logo from '../../assets/shade.png';
-import { Login } from '../../../src/Pages/Auth/Login';
+import { Link } from 'react-router-dom';
+import { Navbar, Container, Offcanvas, Nav } from 'react-bootstrap';
+import { Login } from '../../Pages/Auth/Login';
 
 const Header = () => {
   return (
-    <nav class='navbar' role='navigation' aria-label='main navigation'>
-      <div class='navbar-brand'>
-        {/* <a class='navbar-item' href='#'>
-          <img src={Logo} alt='' srcset='' width='112' height='28' />
-        </a> */}
+    <>
+      <Navbar bg='light' expand={false} className='mb-3'>
+        <Container fluid>
+          <Navbar.Toggle />
+          <Navbar.Offcanvas placement='start'>
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title>M152</Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <Nav className='justify-content-end flex-grow-1 pe-3'>
+                <Nav.Link>
+                  <Link className='navbar-item deco-none' to='/'>
+                    Home
+                  </Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link className='navbar-item deco-none' to='/shop'>
+                    Shop
+                  </Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link className='navbar-item deco-none' to='/collection'>
+                    Collection
+                  </Link>
+                </Nav.Link>
 
-        <a
-          role='button'
-          class='navbar-burger'
-          aria-label='menu'
-          aria-expanded='false'
-          data-target='navbarBasicExample'
-        >
-          {/* using this for humberger menu */}
-          <span aria-hidden='true'></span>
-          <span aria-hidden='true'></span>
-          <span aria-hidden='true'></span>
-        </a>
-      </div>
+                <Nav.Link>
+                  <Link className='navbar-item deco-none' to='/blog'>
+                    Blog
+                  </Link>
+                </Nav.Link>
 
-      <div id='navbarBasicExample' class='navbar-menu'>
-        <div class='navbar-start'>
-          <Link class='navbar-item' to='/'>
-            Home
-          </Link>
-          <Link class='navbar-item' to='/shop'>
-            Shop
-          </Link>
-
-          <Link class='navbar-item' to='/collection'>
-            Collection
-          </Link>
-          <Link class='navbar-item' to='/blog'>
-            Blog
-          </Link>
-          <Link class='navbar-item' to='/contact'>
-            Contact
-          </Link>
-        </div>
-
-        <div class='navbar-end'>
-          <div class='navbar-item'>
-            <div class='buttons'>
-              <Login className='navbar-item button iswarning mr-3' />
-
-              {/* <a class=' navbar-item button iswarning mr-3 deco-none'>Signup</a> */}
-            </div>
+                <Nav.Link>
+                  <Link className='navbar-item deco-none' to='/contact'>
+                    Contact
+                  </Link>
+                </Nav.Link>
+              </Nav>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
+          <div class='buttons'>
+            <Login className='navbar-item button iswarning mr-3' />
           </div>
-        </div>
-      </div>
-    </nav>
-    // <div className='container'>
-    //   <div className='logo'>
-    //     {/* <img src={Logo} alt='Logo' /> */}
-    //     <span>M152</span>
-    //   </div>
-
-    //   <div className='rightSide'>
-    //     <div className='navbar'>
-    //       <ul className='navbarItems'>
-    //         <li>Collections</li>
-    //         <li>Brands</li>
-    //         <li>New</li>
-    //         <li>Sales</li>
-    //       </ul>
-    //     </div>
-    //     <BiSearch className='search' />
-    //     <BiCart className='cart' />
-    //   </div>
-    // </div>
+        </Container>
+      </Navbar>
+    </>
   );
 };
-
 export default Header;

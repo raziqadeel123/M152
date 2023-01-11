@@ -958,4 +958,26 @@ a {
   .Typewriter__cursor {
     font-size: 60px;
   }
+  .is-1-mobile {
+    margin: 0px !important;
+    margin-top: 0px !important;
+  }
+  .is-one-fifth {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+  .video-content {
+    display: none !important;
+  }
+  .disply-mob {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .mobile-w100p {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .mob-p-4 {
+    padding: 20px !important;
+  }
 }

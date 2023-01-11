@@ -16,7 +16,7 @@ const Collection = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 600,
+      duration: 400,
       easing: 'ease-in-sine',
       delay: 100,
       disable: 'mobile',
@@ -27,7 +27,7 @@ const Collection = () => {
       <Header></Header>
 
       <div className='conllectionContainer'>
-        <div class='coll-banner position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light'>
+        <div class='coll-banner position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light '>
           <div className='col-md-5 p-lg-5 mx-auto my-5'>
             <h1 className='display-4 font-weight-normal'>Winter Collection</h1>
             <p className='banner-dec lead font-weight-normal'>
@@ -41,11 +41,11 @@ const Collection = () => {
           </div>
         </div>
 
-        <div className='  d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 '>
+        <div className='  d-md-flex flex-md-equal w-100 my-md-3 pl-md-3  is-1-mobile  '>
           <div
             data-aos='fade-left'
             data-aos-delay='500'
-            className=' m-4 bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p'
+            className='  bg-dark text-center text-white overflow-hidden w50p h50p mobile-w100p is-1-mobile '
           >
             <div className='my-3 py-3'>
               <h2 className='display-5'>Jorden Air 1</h2>
@@ -61,7 +61,7 @@ const Collection = () => {
           <div
             data-aos='fade-right'
             data-aos-delay='500'
-            className='bg-light  w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden '
+            className='bg-light mobile-w100p w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden '
           >
             <div className='my-3 p-3'>
               <h2 className='display-5'>Men Colloection from Nike</h2>
@@ -70,17 +70,17 @@ const Collection = () => {
                 Explore &rarr;
               </a>
             </div>
-            <div className='m-4 bg-dark box-shadow mx-auto b-radius '>
+            <div className=' bg-dark box-shadow mx-auto b-radius '>
               <img className='b-radius' src={collimgbl1} alt='banner img' />
             </div>
           </div>
         </div>
 
-        <div className='m-4  d-md-flex flex-md-equal w-100 my-md-3 pl-md-3'>
+        <div className=' d-md-flex flex-md-equal w-100 my-md-3 pl-md-3  is-1-mobile '>
           <div
             data-aos='fade-up'
-            data-aos-delay='1500'
-            className='m-4 bg-light w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'
+            data-aos-delay='1000'
+            className=' bg-light w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden  is-1-mobile mobile-w100p'
           >
             <div className='my-3 p-3'>
               <h2 className='display-5'>Another headline</h2>
@@ -96,8 +96,8 @@ const Collection = () => {
 
           <div
             data-aos='fade-up'
-            data-aos-delay='1500'
-            className='m-4 bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p'
+            data-aos-delay='1000'
+            className=' bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p  mobile-w100p  is-1-mobile '
           >
             <div className='my-3 py-3'>
               <h2 className='display-5'>Jorden Air 1</h2>
@@ -106,7 +106,7 @@ const Collection = () => {
                 Explore &rarr;
               </a>
             </div>
-            <div className='m-4 bg-light box-shadow mx-auto b-radius'>
+            <div className=' bg-light box-shadow mx-auto b-radius'>
               <img className='b-radius' src={collimgwh1} alt='banner img' />
             </div>
           </div>
@@ -115,8 +115,8 @@ const Collection = () => {
         <div className='d-md-flex flex-md-equal w-100 my-md-3 pl-md-3'>
           <div
             data-aos='fade-up'
-            data-aos-delay='1500'
-            className=' m-4 bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p'
+            data-aos-delay='1000'
+            className='  bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w50p h50p  mobile-w100p  is-1-mobile'
           >
             <div className='my-3 py-3'>
               <h2 className='display-5'>Jorden Air 1</h2>
@@ -131,8 +131,8 @@ const Collection = () => {
           </div>
           <div
             data-aos='fade-up'
-            data-aos-delay='1500'
-            className='m-4 bg-light w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'
+            data-aos-delay='1000'
+            className=' bg-light  mobile-w100p  is-1-mobile w50p h50p mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'
           >
             <div className='my-3 py-3'>
               <h2 className='display-5'>Another headline</h2>
